@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+    body {
+        background-color:#f5f5dc; 
+        color: #8b4513;
+        display:flex;
+    }
+    #sidebar{
+        width:20%
+        backgroung-color#8b4513;
+        color:#f5f5dc; 
+        min-height: 100vh;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+
+    }
+
+    #sidebar a {
+        color:#8b4513;
+        font-weight:bold;
+        text-decoration: none;
+        display:block;
+        margin:10px 0;
+
+    }
+    #sidebar a:disabled {
+        color:#8b4513;
+        pointer-events:none;
+
+    }
+    #background-div {
+        width: 80%;
+        background-color: #f5f5dc; 
+        height: auto;
+        padding-bottom: 20px;
+    }
+    #bg2 {
+        width: 100%;
+        min-height: 80px;
+        line-height: 50px;
+        background-color: #8b4513; 
+        color: white;
+        padding: 10px;
+        font-size: 23px;
+    }
+    #logo-div {
+        width: 30%;
+        float: left;
+    }
+    #nav-div {
+        width: 70%;
+        float: left;
+        text-align: left;
+        padding-right: 10px;
+    }
+    #nav-div a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    #nav-div a:hover,
+    #nav-div a:focus,
+    #nav-div a:active {
+    color:#8b4513;
+    }
+    #intro-div {
+        width: 100%;
+        min-height: 100px;
+        background-color: #8b4513; 
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    .box-div {
+    width: 18%; 
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    }
+    .box-div img {
+    width: 100%;
+    border-radius: 15px;
+    background-color: #f5f5dc;
+    display: block;
+    margin: 0 auto;
+    }
+    .box-div h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    }
+    #main-div {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    #footer-div {
+    width: 100%;
+    min-height: 100px;
+    background-color: #8b4513; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 45px;
+    }
+    #footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #logo-footer {
+        margin-bottom: 10px;
+    }
+    #footer p {
+         margin: 5px 0;
+        font-size: 16px;
+    }
